@@ -78,7 +78,7 @@ it('loads from cordis.yml and logs stable generic correction text for the next m
   // The unresolved call gets its correction on request two, then the bounded
   // normal-stop recovery makes one final request before cancellation.
   expect(adapter.requests).toHaveLength(3)
-  const correction = adapter.requests[1]?.messages.find(message => message.source.kind === 'agent-task-recovery')
+  const correction = adapter.requests[1]?.messages.find(message => message.source?.kind === 'agent-task-recovery')
   expect(correction).toMatchObject({
     role: 'user',
     source: { kind: 'agent-task-recovery', form: 'notice', summary: 'Tool arguments need correction' },

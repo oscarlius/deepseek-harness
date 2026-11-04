@@ -41,7 +41,7 @@ class ScriptedAdapter extends LlmAdapter {
 const disposals: Array<() => Promise<unknown>> = []
 afterEach(async () => { for (const dispose of disposals.splice(0).reverse()) await dispose() })
 
-async function fixture(config: Config = {}, todoResult?: Record<string, unknown>) {
+async function fixture(config: Config = {}, todoResult?: { todos?: Array<null | { content: string | number; status: string }> }) {
   const ctx = new Context()
   disposals.push(() => ctx.fiber.dispose())
   await mountAgentLoopTestDependencies(ctx)
