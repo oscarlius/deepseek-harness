@@ -1,0 +1,43 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/agent-task-recovery/README.md
+/:
+  en: 6a0058882c974422
+  zh: a058d9b778838721
+/deepseek-ai-dsh-agent-task-recovery:
+  en: 03a6e896ccd2e7f5
+  zh: d001e97127032665
+/deepseek-ai-dsh-agent-task-recovery/summary:
+  en: cabc667c86ad2469
+  zh: b73e0ffd3d0dedf4
+/deepseek-ai-dsh-agent-task-recovery/table-of-contents:
+  en: 76368b6b1da79c80
+  zh: 52384aee991ac542
+/deepseek-ai-dsh-agent-task-recovery/use-this-package:
+  en: ce2107e73fae15ea
+  zh: c4206dc892f1d20b
+/deepseek-ai-dsh-agent-task-recovery/understand-the-implementation:
+  en: f6df0179b083793e
+  zh: 5673677da079e5f1
+/deepseek-ai-dsh-agent-task-recovery/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-agent-task-recovery/model-experience/recovery-contexts-after-observable-unfinished-work:
+  en: a0af70d5a4bd5c6d
+  zh: 3498a1617e49fe7f
+/deepseek-ai-dsh-agent-task-recovery/model-experience/recovery-contexts-after-observable-unfinished-work/what-the-model-sees:
+  en: 64cf43f20d51ca38
+  zh: 6c14d91aa0ab896f
+/deepseek-ai-dsh-agent-task-recovery/model-experience/recovery-contexts-after-observable-unfinished-work/token-effect:
+  en: 8d446055ee82f465
+  zh: e682106c43ee729a
+/deepseek-ai-dsh-agent-task-recovery/model-experience/recovery-contexts-after-observable-unfinished-work/kv-cache-effect:
+  en: 83c030457a94cce0
+  zh: f018e226f7bebd1b
+/deepseek-ai-dsh-agent-task-recovery/known-limitations-and-deferred-work:
+  en: 3671b4bc8df6609e
+  zh: 1ce078f6333f908b
+/deepseek-ai-dsh-agent-task-recovery/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

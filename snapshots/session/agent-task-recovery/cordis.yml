@@ -1,0 +1,8 @@
+# Optional recovery added to the shipped headless profile.
+
+- insert:
+    - id: agent-task-recovery
+      name: '@deepseek-ai/dsh-agent-task-recovery'
+      config:
+        maxInvalidCalls: 3
+        maxContinuations: 1
