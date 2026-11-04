@@ -173,6 +173,25 @@ export interface Config {
 ```
 <!-- END GENERATED config-catalog:@deepseek-ai/dsh-agent-preset-registry -->
 
+<!-- BEGIN GENERATED config-catalog:@deepseek-ai/dsh-agent-task-recovery -->
+<a id="deepseek-aidsh-agent-task-recovery"></a>
+
+## `@deepseek-ai/dsh-agent-task-recovery`
+
+- `inject`: `agents` · `tools`
+- `source`: [`packages/experimental/agent-task-recovery/src/index.ts:24`](../packages/experimental/agent-task-recovery/src/index.ts)
+
+```ts config-catalog
+/** Bounded recovery controls. Limits are checked when the plugin loads. */
+export interface Config {
+  /** Invalid argument results permitted in one turn before hook cancellation (default 3). */
+  maxInvalidCalls?: number
+  /** Normal text-stop continuations permitted for observable unfinished work (default 1). */
+  maxContinuations?: number
+}
+```
+<!-- END GENERATED config-catalog:@deepseek-ai/dsh-agent-task-recovery -->
+
 <!-- BEGIN GENERATED config-catalog:@deepseek-ai/dsh-agent-team -->
 <a id="deepseek-aidsh-agent-team"></a>
 

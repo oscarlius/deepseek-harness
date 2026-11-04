@@ -1,0 +1,8 @@
+version: 1
+scenario: agent-task-recovery
+profile: headless
+composition: agent-task-recovery
+recording: authored
+header:
+  class: recovery
+  pin: true

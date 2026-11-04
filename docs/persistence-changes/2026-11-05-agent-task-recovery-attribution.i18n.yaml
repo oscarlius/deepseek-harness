@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for 2026-11-05-agent-task-recovery-attribution.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/persistence-changes/2026-11-05-agent-task-recovery-attribution.md
+/:
+  en: 3d5a424ae7d7e46b
+  zh: c22a8e4a62d8cc1a
+/2026-11-05-agent-task-recovery-attribution:
+  en: 690b9524a0a904b4
+  zh: 475b2f9d45f76e60
+/2026-11-05-agent-task-recovery-attribution/summary:
+  en: 103f728bfc3c48ce
+  zh: a37d9238785c905b
+/2026-11-05-agent-task-recovery-attribution/table-of-contents:
+  en: 6cf314a069ceb451
+  zh: 9adff678e9ecab3b
+/2026-11-05-agent-task-recovery-attribution/declaration:
+  en: 6907136f28e48c90
+  zh: 02f8298485f3d8e7
+/2026-11-05-agent-task-recovery-attribution/compatibility:
+  en: b6f6b5110f6e3d17
+  zh: f7642df9c24cb856
+/2026-11-05-agent-task-recovery-attribution/verification:
+  en: da8e77019aad781e
+  zh: 81446f4197f40ae8
+/2026-11-05-agent-task-recovery-attribution/dev-note:
+  en: b75c8458928b72b9
+  zh: 003ba4e17b4b5269

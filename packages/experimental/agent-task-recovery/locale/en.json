@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Agent task recovery",
+    "description": "Bounded recovery for invalid tool arguments and pending todo evidence."
+  }
+}
